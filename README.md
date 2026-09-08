@@ -1,6 +1,6 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
+[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
 [![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
 
@@ -14,7 +14,7 @@ Prepare a repository for public GitHub release: inspect it, propose specific imp
 2. Present a prioritized plan with evidence and acceptance checks. You approve or adjust the scope.
 3. Implement the agreed changes and report what was verified, what remains open, and whether publication happened.
 
-The skill proposes English, German, Simplified Chinese, and Japanese READMEs. It adds badges, configuration examples, community files, and CI only when they help the project. Publishing requires authorization; it is separate from preparation.
+The default README languages are English, German, Simplified Chinese, Japanese, Spanish, Korean, Brazilian Portuguese, and French. Before editing, the skill lists the planned languages and filenames so you can adjust the selection. It checks translation consistency and, where feasible, the quickstart from a fresh clone. Proposals depend on the project type and include clarifying maintenance status; a social-preview image is optional. It adds badges, configuration examples, community files, and CI only when they help the project. Publishing requires authorization; it is separate from preparation.
 
 ## Install and use
 
@@ -41,7 +41,7 @@ See [SKILL.md](SKILL.md) for the workflow and [TESTING.md](TESTING.md) for repea
 
 ## Contributing
 
-Open an issue with the observed behavior and expected result, or a focused pull request. Keep all four READMEs aligned. Do not include credentials or private repository content in reports.
+Open an issue with the observed behavior and expected result, or a focused pull request. Keep all eight READMEs aligned. Do not include credentials or private repository content in reports.
 
 ## License
 

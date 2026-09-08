@@ -1,6 +1,6 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
+[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
 [![智能体技能](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
 
@@ -14,7 +14,7 @@
 2. 提交按优先级排序的计划，附上依据和验收方法。由你确认或调整范围。
 3. 实施已批准的修改，说明验证结果、待处理事项以及是否已经发布。
 
-该技能建议提供英语、德语、简体中文和日语 README。只有在对项目有帮助时，才添加徽章、配置示例、社区文件和 CI。发布需要授权，与准备工作分开处理。
+默认 README 语言为英语、德语、简体中文、日语、西班牙语、韩语、巴西葡萄牙语和法语。修改前，技能会列出计划使用的语言和文件名，供你调整。它会检查翻译内容的一致性，并在可行时从全新克隆验证快速入门步骤。建议根据项目类型制定，并包括明确维护状态；社交分享预览图为可选项。只有在对项目有帮助时，才添加徽章、配置示例、社区文件和 CI。发布需要授权，与准备工作分开处理。
 
 ## 安装与使用
 
@@ -41,7 +41,7 @@ git clone https://github.com/pengusto/let-them-see-it.git ~/.codex/skills/let-th
 
 ## 参与贡献
 
-请提交包含实际行为和预期结果的 Issue，或范围明确的 Pull Request。保持四种语言的 README 内容一致。请勿在报告中包含凭据或私有仓库内容。
+请提交包含实际行为和预期结果的 Issue，或范围明确的 Pull Request。保持八种语言的 README 内容一致。请勿在报告中包含凭据或私有仓库内容。
 
 ## 许可证
 

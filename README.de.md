@@ -1,6 +1,6 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
+[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
 [![Agent-Skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
 
@@ -14,7 +14,7 @@ Bereite ein Repository auf die öffentliche Veröffentlichung bei GitHub vor: pr
 2. Einen priorisierten Plan mit Belegen und Abnahmekriterien vorlegen. Du bestätigst oder änderst den Umfang.
 3. Die abgestimmten Änderungen umsetzen und berichten, was geprüft wurde, was offenbleibt und ob veröffentlicht wurde.
 
-Der Skill schlägt READMEs auf Englisch, Deutsch, vereinfachtem Chinesisch und Japanisch vor. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
+Standard sind READMEs auf Englisch, Deutsch, vereinfachtem Chinesisch, Japanisch, Spanisch, Koreanisch, brasilianischem Portugiesisch und Französisch. Vor der Umsetzung nennt der Skill alle geplanten Sprachen und Dateinamen, damit du die Auswahl anpassen kannst. Er prüft die Übersetzungen auf inhaltliche Übereinstimmung und, soweit möglich, den Schnellstart aus einem frischen Klon. Die Vorschläge richten sich nach dem Projekttyp und umfassen die Klärung des Wartungsstatus; ein Social-Preview-Bild ist optional. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
 
 ## Installation und Nutzung
 
@@ -41,7 +41,7 @@ Dies ist ein anweisungsbasierter Skill, keine automatische Sicherheitszertifizie
 
 ## Mitmachen
 
-Eröffne ein Issue mit beobachtetem und erwartetem Verhalten oder einen fokussierten Pull Request. Halte die vier READMEs inhaltlich synchron. Teile keine Zugangsdaten oder privaten Repository-Inhalte in Berichten.
+Eröffne ein Issue mit beobachtetem und erwartetem Verhalten oder einen fokussierten Pull Request. Halte die acht READMEs inhaltlich synchron. Teile keine Zugangsdaten oder privaten Repository-Inhalte in Berichten.
 
 ## Lizenz
 
