@@ -1,0 +1,4 @@
+interface:
+  display_name: "Let Them See It"
+  short_description: "Evaluate and prepare a repository for public release"
+  default_prompt: "Use $let-them-see-it to evaluate this repository for public release and propose changes before implementing them."
