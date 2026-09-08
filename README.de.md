@@ -1,6 +1,6 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md)
+[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
 [![Agent-Skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
 
@@ -14,7 +14,7 @@ Bereite ein Repository auf die öffentliche Veröffentlichung bei GitHub vor: pr
 2. Einen priorisierten Plan mit Belegen und Abnahmekriterien vorlegen. Du bestätigst oder änderst den Umfang.
 3. Die abgestimmten Änderungen umsetzen und berichten, was geprüft wurde, was offenbleibt und ob veröffentlicht wurde.
 
-Der Skill schlägt READMEs auf Englisch, Deutsch und vereinfachtem Chinesisch vor. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
+Der Skill schlägt READMEs auf Englisch, Deutsch, vereinfachtem Chinesisch und Japanisch vor. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
 
 ## Installation und Nutzung
 
@@ -41,7 +41,7 @@ Dies ist ein anweisungsbasierter Skill, keine automatische Sicherheitszertifizie
 
 ## Mitmachen
 
-Eröffne ein Issue mit beobachtetem und erwartetem Verhalten oder einen fokussierten Pull Request. Halte die drei READMEs inhaltlich synchron. Teile keine Zugangsdaten oder privaten Repository-Inhalte in Berichten.
+Eröffne ein Issue mit beobachtetem und erwartetem Verhalten oder einen fokussierten Pull Request. Halte die vier READMEs inhaltlich synchron. Teile keine Zugangsdaten oder privaten Repository-Inhalte in Berichten.
 
 ## Lizenz
 
