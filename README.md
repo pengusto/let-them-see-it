@@ -16,6 +16,8 @@ Prepare a repository for public GitHub release: inspect it, propose specific imp
 
 The default README languages are English, German, Simplified Chinese, Japanese, Spanish, Korean, Brazilian Portuguese, and French. Before editing, the skill lists the planned languages and filenames so you can adjust the selection. It checks translation consistency and, where feasible, the quickstart from a fresh clone. Proposals depend on the project type and include clarifying maintenance status; a social-preview image is optional. It adds badges, configuration examples, community files, and CI only when they help the project. Publishing requires authorization; it is separate from preparation.
 
+It can also evaluate GitHub Sponsors, Discussions, Releases, `CITATION.cff`, topics, social preview, and Insights traffic. It recommends only surfaces that fit the project and does not promise virality or post externally.
+
 ## Install and use
 
 You need Git and an agent that supports `SKILL.md` skills. For a default Codex setup, install into an unused skill directory:

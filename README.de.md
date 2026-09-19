@@ -16,6 +16,8 @@ Bereite ein Repository auf die öffentliche Veröffentlichung bei GitHub vor: pr
 
 Standard sind READMEs auf Englisch, Deutsch, vereinfachtem Chinesisch, Japanisch, Spanisch, Koreanisch, brasilianischem Portugiesisch und Französisch. Vor der Umsetzung nennt der Skill alle geplanten Sprachen und Dateinamen, damit du die Auswahl anpassen kannst. Er prüft die Übersetzungen auf inhaltliche Übereinstimmung und, soweit möglich, den Schnellstart aus einem frischen Klon. Die Vorschläge richten sich nach dem Projekttyp und umfassen die Klärung des Wartungsstatus; ein Social-Preview-Bild ist optional. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
 
+Er kann außerdem GitHub Sponsors, Discussions, Releases, `CITATION.cff`, Topics, Social Preview und Insights-Traffic bewerten. Er empfiehlt nur passende Funktionen, verspricht keine Viralität und postet nichts extern.
+
 ## Installation und Nutzung
 
 Du benötigst Git und einen Agenten, der `SKILL.md`-Skills unterstützt. Für eine Standardinstallation von Codex klonst du in ein noch nicht belegtes Skill-Verzeichnis:

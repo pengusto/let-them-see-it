@@ -1,6 +1,6 @@
 # Behavioral checks
 
-Run `python3 scripts/check_docs.py` for local links, eight-language navigation, and installation-command parity. This check uses Python 3 and no packages; it does not assess translation meaning.
+Run `python3 scripts/check_docs.py` for local links, eight-language navigation, and installation-command parity. This check uses Python 3 and no packages; it does not assess translation meaning. Secret scanning is separate: Gitleaks is a useful baseline, while TruffleHog is optional defense in depth.
 
 Use a disposable repository and a fresh agent session with this skill. Inspect file changes and tool actions, not just the final answer. Never use real credentials in fixtures.
 

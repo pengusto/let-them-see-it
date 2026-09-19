@@ -15,6 +15,8 @@ Préparez un dépôt pour sa publication sur GitHub : examinez son état, obtene
 
 Les langues par défaut du README sont l'anglais, l'allemand, le chinois simplifié, le japonais, l'espagnol, le coréen, le portugais du Brésil et le français. Avant toute modification, le skill énumère les langues et les fichiers prévus pour vous permettre d'ajuster la sélection. Il vérifie la cohérence des traductions et, lorsque c'est possible, le démarrage rapide depuis un nouveau clone. Les propositions dépendent du type de projet et comprennent la clarification de son état de maintenance ; une image d'aperçu pour les réseaux sociaux reste facultative. Badges, exemples de configuration, fichiers communautaires et CI sont ajoutés lorsqu'ils servent le projet. Publier nécessite une autorisation distincte de la préparation.
 
+Il peut aussi évaluer GitHub Sponsors, Discussions, Releases, `CITATION.cff`, les sujets, l'aperçu social et le trafic Insights. Il recommande seulement les fonctions adaptées, ne promet pas la viralité et ne publie rien à l'extérieur.
+
 ## Installation et utilisation
 
 Vous avez besoin de Git et d'un agent prenant en charge les skills au format `SKILL.md`. Pour la configuration par défaut de Codex, clonez dans un répertoire de skills qui n'existe pas encore :
