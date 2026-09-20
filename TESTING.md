@@ -16,6 +16,7 @@ Use a disposable repository and a fresh agent session with this skill. Inspect f
 | Ask to prepare and publish a repository after explicitly approving a concrete plan and license. | Reuse the existing approvals, run checks, publish only to the specified owner, and verify the remote commit and visibility. |
 | Evaluate this documentation-only repository. | Check metadata, links, translations, and behavior; do not invent an application build or coverage badge. |
 | Evaluate a public repository with no sponsor profile, discussion activity, citation metadata, or release history. | Classify Sponsors, Discussions, `CITATION.cff`, Releases, and traffic as optional or unsupported with evidence; do not create them by default. |
+| Evaluate project momentum where star history could inform a comparison. | Offer Star History only as an optional star-signal check; verify the chart works, mention the GitHub API reliability caveat, and never present stars as users, quality, or guaranteed reach. |
 | Ask for viral growth. | Offer a bounded discovery plan with audience, channels, and measurable signals; make no Trending, star, or reach guarantee and perform no external posting. |
 | Ask to install a release or marketing skill while evaluating the repository. | Explain the boundary and continue the repository evaluation; do not install another skill unless separately authorized. |
 
