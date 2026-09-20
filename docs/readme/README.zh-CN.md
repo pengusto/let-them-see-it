@@ -1,20 +1,20 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
+[English](../../README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-[![智能体技能](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
+[![智能体技能](https://img.shields.io/badge/type-agent%20skill-blue)](../../SKILL.md)
 
 为 GitHub 仓库的公开发布做好准备：检查项目、提出具体改进建议，并实施你批准的修改。
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
 ## 工作流程
 
-1. 检查文档、仓库整洁度、敏感内容、许可证和适用的验证步骤，不修改文件。
+1. 检查文档、仓库整洁度与结构、敏感内容、许可证和适用的验证步骤，不修改文件。
 2. 提交按优先级排序的计划，附上依据和验收方法。由你确认或调整范围。
 3. 实施已批准的修改，说明验证结果、待处理事项以及是否已经发布。
 
-默认 README 语言为英语、德语、简体中文、日语、西班牙语、韩语、巴西葡萄牙语和法语。修改前，技能会列出计划使用的语言和文件名，供你调整。它会检查翻译内容的一致性，并在可行时从全新克隆验证快速入门步骤。建议根据项目类型制定，并包括明确维护状态；社交分享预览图为可选项。只有在对项目有帮助时，才添加徽章、配置示例、社区文件和 CI。发布需要授权，与准备工作分开处理。
+默认 README 语言为英语、德语、简体中文、日语、西班牙语、韩语、巴西葡萄牙语和法语。英文 README 保留在仓库根目录；除非项目已有其他约定，翻译文件放在 `docs/readme/`。修改前，技能会列出计划使用的语言和路径，供你调整。它会检查翻译内容的一致性，并在可行时从全新克隆验证快速入门步骤。它还会根据真实的运行、构建、测试和打包路径评估根目录是否混乱，而不会强制采用通用目录树。建议根据项目类型制定，并包括明确维护状态；社交分享预览图为可选项。只有在对项目有帮助时，才添加徽章、配置示例、社区文件和 CI。发布需要授权，与准备工作分开处理。
 
 它还可以评估 GitHub Sponsors、Discussions、Releases、`CITATION.cff`、Topics、社交预览图和 Insights 流量。它只推荐适合项目的功能，不承诺走红，也不会自动对外发布内容。
 
@@ -39,7 +39,7 @@ git clone https://github.com/pengusto/let-them-see-it.git ~/.codex/skills/let-th
 
 这是基于指令的技能，不是自动安全认证。可用的扫描器和智能体行为可能不同。它必须说明未验证的检查项，且不得输出密钥值。许可证和素材使用权不明确时，需要维护者作出决定。翻译由 AI 生成，尚未经过独立的语言审核。
 
-工作流程见 [SKILL.md](SKILL.md)，可重复执行的行为测试见 [TESTING.md](TESTING.md)。
+工作流程见 [SKILL.md](../../SKILL.md)，可重复执行的行为测试见 [TESTING.md](../../TESTING.md)。
 
 ## 参与贡献
 
@@ -47,4 +47,4 @@ git clone https://github.com/pengusto/let-them-see-it.git ~/.codex/skills/let-th
 
 ## 许可证
 
-[MIT](LICENSE) © 2026 Pengusto。
+[MIT](../../LICENSE) © 2026 Pengusto。

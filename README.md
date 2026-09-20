@@ -1,6 +1,6 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
+[English](README.md) · [Deutsch](docs/readme/README.de.md) · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja.md) · [Español](docs/readme/README.es.md) · [한국어](docs/readme/README.ko.md) · [Português (Brasil)](docs/readme/README.pt-BR.md) · [Français](docs/readme/README.fr.md)
 
 [![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
 
@@ -10,11 +10,11 @@ Prepare a repository for public GitHub release: inspect it, propose specific imp
 
 ## How it works
 
-1. Evaluate documentation, repository hygiene, sensitive content, licensing, and useful checks without editing files.
+1. Evaluate documentation, repository hygiene and structure, sensitive content, licensing, and useful checks without editing files.
 2. Present a prioritized plan with evidence and acceptance checks. You approve or adjust the scope.
 3. Implement the agreed changes and report what was verified, what remains open, and whether publication happened.
 
-The default README languages are English, German, Simplified Chinese, Japanese, Spanish, Korean, Brazilian Portuguese, and French. Before editing, the skill lists the planned languages and filenames so you can adjust the selection. It checks translation consistency and, where feasible, the quickstart from a fresh clone. Proposals depend on the project type and include clarifying maintenance status; a social-preview image is optional. It adds badges, configuration examples, community files, and CI only when they help the project. Publishing requires authorization; it is separate from preparation.
+The default README languages are English, German, Simplified Chinese, Japanese, Spanish, Korean, Brazilian Portuguese, and French. The English README stays in the repository root; translations use `docs/readme/` unless the project already follows another convention. Before editing, the skill lists the planned languages and paths so you can adjust the selection. It checks translation consistency and, where feasible, the quickstart from a fresh clone. It also evaluates root clutter against the project's real run, build, test, and packaging paths instead of imposing a generic directory tree. Proposals depend on the project type and include clarifying maintenance status; a social-preview image is optional. It adds badges, configuration examples, community files, and CI only when they help the project. Publishing requires authorization; it is separate from preparation.
 
 It can also evaluate GitHub Sponsors, Discussions, Releases, `CITATION.cff`, topics, social preview, and Insights traffic. It recommends only surfaces that fit the project and does not promise virality or post externally.
 

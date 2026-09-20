@@ -1,19 +1,19 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
+[English](../../README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-[![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](../../SKILL.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
 GitHub リポジトリの公開に向けて準備するスキルです。現状を確認し、具体的な改善案を提示して、承認された変更を実施します。
 
 ## 使い方の流れ
 
-1. ファイルを変更せずに、ドキュメント、リポジトリの整理状況、機密情報、ライセンス、必要な検証を確認します。
+1. ファイルを変更せずに、ドキュメント、リポジトリの整理状況と構造、機密情報、ライセンス、必要な検証を確認します。
 2. 根拠と確認方法を添えた改善計画を優先度順に提示します。ユーザーが対象を承認または調整します。
 3. 合意した変更を実施し、検証結果、未解決の項目、公開を実施したかどうかを報告します。
 
-標準の README 言語は英語、ドイツ語、簡体字中国語、日本語、スペイン語、韓国語、ブラジルポルトガル語、フランス語です。変更前に予定する言語とファイル名を提示するため、選択を調整できます。翻訳内容の一致を確認し、可能な場合は新しいクローンでクイックスタートを検証します。提案はプロジェクトの種類に合わせ、メンテナンス状況の明確化も含みます。ソーシャルプレビュー画像は任意です。バッジ、設定例、コミュニティ向けファイル、CI は、プロジェクトに役立つ場合に追加します。公開には許可が必要で、準備とは別の操作として扱います。
+標準の README 言語は英語、ドイツ語、簡体字中国語、日本語、スペイン語、韓国語、ブラジルポルトガル語、フランス語です。英語版はリポジトリのルートに残し、既存の規則がない場合は翻訳を `docs/readme/` に置きます。変更前に予定する言語とパスを提示するため、選択を調整できます。翻訳内容の一致を確認し、可能な場合は新しいクローンでクイックスタートを検証します。また、一般的な構成を押し付けず、実際の実行、ビルド、テスト、パッケージ化のパスに基づいてルートの混在を評価します。提案はプロジェクトの種類に合わせ、メンテナンス状況の明確化も含みます。ソーシャルプレビュー画像は任意です。バッジ、設定例、コミュニティ向けファイル、CI は、プロジェクトに役立つ場合に追加します。公開には許可が必要で、準備とは別の操作として扱います。
 
 GitHub Sponsors、Discussions、Releases、`CITATION.cff`、Topics、ソーシャルプレビュー、Insights のトラフィックも評価できます。プロジェクトに合う機能だけを提案し、バイラルを約束せず、外部に自動投稿しません。
 
@@ -38,7 +38,7 @@ $let-them-see-it を使って、このリポジトリが公開できる状態か
 
 これは指示ベースのスキルであり、自動的な安全性の認証ではありません。利用できるスキャナーやエージェントの動作は環境によって異なります。未検証の項目を報告し、シークレットの値を出力しないことを求めます。ライセンスや素材の権利が不明な場合は、メンテナーの判断が必要です。翻訳は AI が作成しており、各言語に堪能な第三者による確認は行っていません。
 
-手順は [SKILL.md](SKILL.md)、繰り返し実施できる動作確認は [TESTING.md](TESTING.md) を参照してください。
+手順は [SKILL.md](../../SKILL.md)、繰り返し実施できる動作確認は [TESTING.md](../../TESTING.md) を参照してください。
 
 ## コントリビューション
 
@@ -46,4 +46,4 @@ $let-them-see-it を使って、このリポジトリが公開できる状態か
 
 ## ライセンス
 
-[MIT](LICENSE) © 2026 Pengusto。
+[MIT](../../LICENSE) © 2026 Pengusto。

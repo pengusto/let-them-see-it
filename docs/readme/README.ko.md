@@ -1,19 +1,19 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
+[English](../../README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-[![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](../../SKILL.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
 GitHub 저장소의 공개를 준비하는 스킬입니다. 현재 상태를 검토하고 구체적인 개선안을 제시한 뒤, 승인한 변경 사항을 적용합니다.
 
 ## 작동 방식
 
-1. 파일을 수정하지 않고 문서, 저장소 정리 상태, 민감한 내용, 라이선스와 필요한 검증을 확인합니다.
+1. 파일을 수정하지 않고 문서, 저장소 정리 상태와 구조, 민감한 내용, 라이선스와 필요한 검증을 확인합니다.
 2. 근거와 검증 기준을 포함한 계획을 우선순위에 따라 제시합니다. 사용자가 범위를 승인하거나 조정합니다.
 3. 합의한 변경을 적용하고 검증 결과, 남은 문제, 공개 여부를 보고합니다.
 
-기본 README 언어는 영어, 독일어, 중국어 간체, 일본어, 스페인어, 한국어, 브라질 포르투갈어, 프랑스어입니다. 수정 전에 예정된 언어와 파일 이름을 알려 주므로 선택을 조정할 수 있습니다. 번역 내용의 일관성을 확인하고, 가능한 경우 새로 복제한 저장소에서 빠른 시작 절차를 검증합니다. 프로젝트 유형에 맞게 제안하고 유지보수 상태를 명확히 하며, 소셜 미리보기 이미지는 선택 사항입니다. 배지, 설정 예제, 커뮤니티 파일과 CI는 프로젝트에 도움이 될 때 추가합니다. 공개는 준비 작업과 별개이며 승인이 필요합니다.
+기본 README 언어는 영어, 독일어, 중국어 간체, 일본어, 스페인어, 한국어, 브라질 포르투갈어, 프랑스어입니다. 영문 README는 저장소 루트에 두고, 다른 규칙이 없다면 번역은 `docs/readme/`에 둡니다. 수정 전에 예정된 언어와 경로를 알려 주므로 선택을 조정할 수 있습니다. 번역 내용의 일관성을 확인하고, 가능한 경우 새로 복제한 저장소에서 빠른 시작 절차를 검증합니다. 또한 일반적인 디렉터리 구조를 강요하지 않고 실제 실행, 빌드, 테스트, 패키징 경로에 따라 루트 혼잡을 평가합니다. 프로젝트 유형에 맞게 제안하고 유지보수 상태를 명확히 하며, 소셜 미리보기 이미지는 선택 사항입니다. 배지, 설정 예제, 커뮤니티 파일과 CI는 프로젝트에 도움이 될 때 추가합니다. 공개는 준비 작업과 별개이며 승인이 필요합니다.
 
 GitHub Sponsors, Discussions, Releases, `CITATION.cff`, Topics, 소셜 미리보기와 Insights 트래픽도 평가할 수 있습니다. 프로젝트에 맞는 기능만 제안하며 바이럴을 약속하거나 외부에 자동 게시하지 않습니다.
 
@@ -38,7 +38,7 @@ $let-them-see-it을 사용해 이 저장소가 공개할 준비가 되었는지 
 
 이 스킬은 지침 기반이며 자동 보안 인증이 아닙니다. 사용 가능한 스캐너와 에이전트의 동작은 환경에 따라 다릅니다. 검증하지 못한 항목을 보고해야 하며 비밀 값을 출력해서는 안 됩니다. 라이선스와 자료 사용 권한이 불명확하면 관리자의 판단이 필요합니다. 번역은 AI가 작성했으며 독립적인 언어 검수를 받지 않았습니다.
 
-절차는 [SKILL.md](SKILL.md), 반복 가능한 동작 검증은 [TESTING.md](TESTING.md)를 참고하세요.
+절차는 [SKILL.md](../../SKILL.md), 반복 가능한 동작 검증은 [TESTING.md](../../TESTING.md)를 참고하세요.
 
 ## 기여
 
@@ -46,4 +46,4 @@ $let-them-see-it을 사용해 이 저장소가 공개할 준비가 되었는지 
 
 ## 라이선스
 
-[MIT](LICENSE) © 2026 Pengusto.
+[MIT](../../LICENSE) © 2026 Pengusto.

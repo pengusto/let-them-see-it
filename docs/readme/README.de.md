@@ -1,20 +1,20 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
+[English](../../README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-[![Agent-Skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
+[![Agent-Skill](https://img.shields.io/badge/type-agent%20skill-blue)](../../SKILL.md)
 
 Bereite ein Repository auf die öffentliche Veröffentlichung bei GitHub vor: prüfen, konkrete Verbesserungen vorschlagen und die freigegebenen Änderungen umsetzen.
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
 ## Ablauf
 
-1. Dokumentation, Repository-Ordnung, sensible Inhalte, Lizenzierung und sinnvolle Checks prüfen, ohne Dateien zu ändern.
+1. Dokumentation, Repository-Ordnung und -Struktur, sensible Inhalte, Lizenzierung und sinnvolle Checks prüfen, ohne Dateien zu ändern.
 2. Einen priorisierten Plan mit Belegen und Abnahmekriterien vorlegen. Du bestätigst oder änderst den Umfang.
 3. Die abgestimmten Änderungen umsetzen und berichten, was geprüft wurde, was offenbleibt und ob veröffentlicht wurde.
 
-Standard sind READMEs auf Englisch, Deutsch, vereinfachtem Chinesisch, Japanisch, Spanisch, Koreanisch, brasilianischem Portugiesisch und Französisch. Vor der Umsetzung nennt der Skill alle geplanten Sprachen und Dateinamen, damit du die Auswahl anpassen kannst. Er prüft die Übersetzungen auf inhaltliche Übereinstimmung und, soweit möglich, den Schnellstart aus einem frischen Klon. Die Vorschläge richten sich nach dem Projekttyp und umfassen die Klärung des Wartungsstatus; ein Social-Preview-Bild ist optional. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
+Standard sind READMEs auf Englisch, Deutsch, vereinfachtem Chinesisch, Japanisch, Spanisch, Koreanisch, brasilianischem Portugiesisch und Französisch. Das englische README bleibt im Repository-Root; Übersetzungen liegen unter `docs/readme/`, sofern das Projekt keiner anderen Konvention folgt. Vor der Umsetzung nennt der Skill alle geplanten Sprachen und Pfade, damit du die Auswahl anpassen kannst. Er prüft die Übersetzungen auf inhaltliche Übereinstimmung und, soweit möglich, den Schnellstart aus einem frischen Klon. Außerdem bewertet er Root-Unordnung anhand der echten Laufzeit-, Build-, Test- und Paketpfade, statt eine allgemeine Ordnerstruktur zu erzwingen. Die Vorschläge richten sich nach dem Projekttyp und umfassen die Klärung des Wartungsstatus; ein Social-Preview-Bild ist optional. Badges, Konfigurationsbeispiele, Community-Dateien und CI ergänzt er nur, wenn sie dem Projekt helfen. Die Veröffentlichung benötigt einen Auftrag und ist von der Vorbereitung getrennt.
 
 Er kann außerdem GitHub Sponsors, Discussions, Releases, `CITATION.cff`, Topics, Social Preview und Insights-Traffic bewerten. Er empfiehlt nur passende Funktionen, verspricht keine Viralität und postet nichts extern.
 
@@ -39,7 +39,7 @@ Gib nach der Prüfung die gewünschten Punkte frei. Der Skill selbst benötigt k
 
 Dies ist ein anweisungsbasierter Skill, keine automatische Sicherheitszertifizierung. Verfügbare Scanner und Agentenverhalten unterscheiden sich. Der Skill muss ungeprüfte Punkte melden und darf keine Secret-Werte ausgeben. Unklare Lizenz- und Nutzungsrechte benötigen eine Entscheidung der betreuenden Person. Die Übersetzungen stammen von KI und wurden nicht unabhängig sprachlich geprüft.
 
-[SKILL.md](SKILL.md) beschreibt den Ablauf; [TESTING.md](TESTING.md) enthält wiederholbare Verhaltenstests.
+[SKILL.md](../../SKILL.md) beschreibt den Ablauf; [TESTING.md](../../TESTING.md) enthält wiederholbare Verhaltenstests.
 
 ## Mitmachen
 
@@ -47,4 +47,4 @@ Eröffne ein Issue mit beobachtetem und erwartetem Verhalten oder einen fokussie
 
 ## Lizenz
 
-[MIT](LICENSE) © 2026 Pengusto.
+[MIT](../../LICENSE) © 2026 Pengusto.

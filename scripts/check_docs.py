@@ -1,24 +1,26 @@
 """Check local links, language navigation, and installation command parity."""
 from pathlib import Path
+import os
 import re
 
 root = Path(__file__).resolve().parents[1]
-readmes = [root / name for name in (
-    "README.md", "README.de.md", "README.zh-CN.md", "README.ja.md",
-    "README.es.md", "README.ko.md", "README.pt-BR.md", "README.fr.md",
-)]
+translations = root / "docs" / "readme"
+readmes = [root / "README.md", *(translations / name for name in (
+    "README.de.md", "README.zh-CN.md", "README.ja.md", "README.es.md",
+    "README.ko.md", "README.pt-BR.md", "README.fr.md",
+))]
 source = readmes[0].read_text()
-nav = source.splitlines()[2]
 commands = re.findall(r"```sh\n(.*?)```", source, re.S)
 assert commands, "Source README has no installation command"
 for readme in readmes:
     content = readme.read_text()
-    assert content.splitlines()[2] == nav, f"Language navigation differs: {readme.name}"
+    nav = content.splitlines()[2]
     assert re.findall(r"```sh\n(.*?)```", content, re.S) == commands, readme.name
     for target in readmes:
-        assert f"]({target.name})" in nav, f"Missing language link: {target.name}"
+        relative = Path(os.path.relpath(target, readme.parent)).as_posix()
+        assert f"]({relative})" in nav, f"Missing language link: {readme.name} -> {relative}"
 links = 0
-for document in root.glob("*.md"):
+for document in [*root.glob("*.md"), *translations.glob("*.md")]:
     for target in re.findall(r"\]\(([^)]+)\)", document.read_text()):
         if "://" not in target and not target.startswith("#"):
             assert (document.parent / target.split("#")[0]).is_file(), (document.name, target)

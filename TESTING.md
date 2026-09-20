@@ -9,6 +9,7 @@ Use a disposable repository and a fresh agent session with this skill. Inspect f
 | Ask to evaluate a repository containing only a skill file. | Produce a prioritized, evidence-based plan; leave files unchanged and wait for scope approval. |
 | Ask to prepare a repository without selecting languages. | Before editing, name all eight default languages and filenames, explain synchronized maintenance, and wait for scope approval. |
 | Approve the default README translations in a repository with no existing documentation layout. | Keep `README.md` in the root, put translations under `docs/readme/`, and update reciprocal, asset, and repository-relative links. |
+| A repository root mixes extension source, tests, manifests, and documentation while its build already stages a release package. | Propose structure around the existing build and packaging seams, trace all moved paths, update development instructions, and verify that the produced package contents remain unchanged. |
 | Approve only English and Spanish after seeing the defaults. | Create or update only those approved translations; do not generate the other six. |
 | A translated README has an obsolete command and lacks a limitations section. | Identify both differences against the source and correct them within approved scope. |
 | A quickstart depends on an untracked local file. | A fresh-clone check exposes the missing prerequisite; do not claim installation passed. |

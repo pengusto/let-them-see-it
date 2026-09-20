@@ -1,19 +1,19 @@
 # Let Them See It
 
-[English](README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
+[English](../../README.md) · [Deutsch](README.de.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-[![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](SKILL.md)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Agent skill](https://img.shields.io/badge/type-agent%20skill-blue)](../../SKILL.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
 Préparez un dépôt pour sa publication sur GitHub : examinez son état, obtenez des propositions concrètes et faites appliquer les changements que vous approuvez.
 
 ## Fonctionnement
 
-1. Examiner la documentation, l'organisation du dépôt, les données sensibles, les licences et les vérifications utiles sans modifier les fichiers.
+1. Examiner la documentation, l'organisation et la structure du dépôt, les données sensibles, les licences et les vérifications utiles sans modifier les fichiers.
 2. Présenter un plan par priorité, avec des preuves et des critères de validation. Vous approuvez ou ajustez le périmètre.
 3. Appliquer les changements convenus et indiquer les vérifications effectuées, les points ouverts et si la publication a eu lieu.
 
-Les langues par défaut du README sont l'anglais, l'allemand, le chinois simplifié, le japonais, l'espagnol, le coréen, le portugais du Brésil et le français. Avant toute modification, le skill énumère les langues et les fichiers prévus pour vous permettre d'ajuster la sélection. Il vérifie la cohérence des traductions et, lorsque c'est possible, le démarrage rapide depuis un nouveau clone. Les propositions dépendent du type de projet et comprennent la clarification de son état de maintenance ; une image d'aperçu pour les réseaux sociaux reste facultative. Badges, exemples de configuration, fichiers communautaires et CI sont ajoutés lorsqu'ils servent le projet. Publier nécessite une autorisation distincte de la préparation.
+Les langues par défaut du README sont l'anglais, l'allemand, le chinois simplifié, le japonais, l'espagnol, le coréen, le portugais du Brésil et le français. Le README anglais reste à la racine ; les traductions utilisent `docs/readme/`, sauf convention différente du projet. Avant toute modification, le skill énumère les langues et les chemins prévus. Il vérifie la cohérence des traductions et, lorsque c'est possible, le démarrage rapide depuis un nouveau clone. Il évalue aussi l'encombrement de la racine selon les véritables chemins d'exécution, de build, de test et d'empaquetage, sans imposer une arborescence générique. Les propositions dépendent du type de projet et comprennent la clarification de son état de maintenance ; une image d'aperçu pour les réseaux sociaux reste facultative. Badges, exemples de configuration, fichiers communautaires et CI sont ajoutés lorsqu'ils servent le projet. Publier nécessite une autorisation distincte de la préparation.
 
 Il peut aussi évaluer GitHub Sponsors, Discussions, Releases, `CITATION.cff`, les sujets, l'aperçu social et le trafic Insights. Il recommande seulement les fonctions adaptées, ne promet pas la viralité et ne publie rien à l'extérieur.
 
@@ -38,7 +38,7 @@ Après examen du plan, approuvez les points souhaités. Le skill lui-même ne n�
 
 Ce skill repose sur des instructions ; il ne fournit pas de certification automatique de sécurité. Les scanners disponibles et le comportement de l'agent varient. Il doit signaler les vérifications non effectuées et ne pas afficher de secrets. Les incertitudes sur les licences et les droits des ressources nécessitent une décision du responsable. Les traductions proviennent de l'IA et n'ont pas fait l'objet d'une révision linguistique indépendante.
 
-Consultez [SKILL.md](SKILL.md) pour la procédure et [TESTING.md](TESTING.md) pour les vérifications de comportement reproductibles.
+Consultez [SKILL.md](../../SKILL.md) pour la procédure et [TESTING.md](../../TESTING.md) pour les vérifications de comportement reproductibles.
 
 ## Contribuer
 
@@ -46,4 +46,4 @@ Ouvrez une issue avec le comportement observé et le résultat attendu, ou une p
 
 ## Licence
 
-[MIT](LICENSE) © 2026 Pengusto.
+[MIT](../../LICENSE) © 2026 Pengusto.
