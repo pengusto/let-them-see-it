@@ -8,6 +8,10 @@ Bereite ein Repository auf die öffentliche Veröffentlichung bei GitHub vor: pr
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
+[Website](https://pengusto.github.io/let-them-see-it/)
+
+![Ablauf: prüfen, abstimmen, vorbereiten; nur mit Auftrag veröffentlichen.](../../site/assets/preview.webp)
+
 ## Ablauf
 
 1. Dokumentation, Repository-Ordnung und -Struktur, sensible Inhalte, Lizenzierung und sinnvolle Checks prüfen, ohne Dateien zu ändern.

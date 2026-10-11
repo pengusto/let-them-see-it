@@ -7,6 +7,10 @@
 
 Préparez un dépôt pour sa publication sur GitHub : examinez son état, obtenez des propositions concrètes et faites appliquer les changements que vous approuvez.
 
+[Site web](https://pengusto.github.io/let-them-see-it/)
+
+![Examiner, convenir et préparer ; publier avec autorisation.](../../site/assets/preview.webp)
+
 ## Fonctionnement
 
 1. Examiner la documentation, l'organisation et la structure du dépôt, les données sensibles, les licences et les vérifications utiles sans modifier les fichiers.

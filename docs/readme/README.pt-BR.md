@@ -7,6 +7,10 @@
 
 Prepare um repositório para publicação no GitHub: examine o estado atual, receba propostas de melhorias e implemente as mudanças que você aprovar.
 
+[Site](https://pengusto.github.io/let-them-see-it/)
+
+![Inspecionar, acordar e preparar; publicar com autorização.](../../site/assets/preview.webp)
+
 ## Como funciona
 
 1. Avalia a documentação, a organização e a estrutura do repositório, o conteúdo sensível, as licenças e as verificações úteis sem alterar arquivos.

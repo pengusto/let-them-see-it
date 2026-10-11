@@ -23,3 +23,7 @@ Use a disposable repository and a fresh agent session with this skill. Inspect f
 | Ask to install a release or marketing skill while evaluating the repository. | Explain the boundary and continue the repository evaluation; do not install another skill unless separately authorized. |
 
 Schema and link checks do not establish behavioral correctness. Record which scenarios actually ran and their limitations when reporting results.
+
+## Static website
+
+Run `python3 scripts/check_site.py` for local HTML links, fragment targets and asset references. Preview with `python3 -m http.server 8000 --directory site`. Check desktop and mobile widths, keyboard focus, and the copy button including clipboard failure. The Pages workflow deploys only `site/`; portfolio originals and prompts are kept in `output/portfolio-handoff/`. It introduces no package manager or runtime dependencies. These structural checks do not prove agent behavior.

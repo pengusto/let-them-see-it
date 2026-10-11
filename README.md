@@ -8,6 +8,10 @@ Prepare a repository for public GitHub release: inspect it, propose specific imp
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+[Website](https://pengusto.github.io/let-them-see-it/)
+
+![Workflow preview: inspect, agree, prepare; publish with permission.](site/assets/preview.webp)
+
 ## How it works
 
 1. Evaluate documentation, repository hygiene and structure, sensitive content, licensing, and useful checks without editing files.

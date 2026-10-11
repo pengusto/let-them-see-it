@@ -8,6 +8,10 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](../../LICENSE)
 
+[网站](https://pengusto.github.io/let-them-see-it/)
+
+![流程：检查、确认、准备；经授权后发布。](../../site/assets/preview.webp)
+
 ## 工作流程
 
 1. 检查文档、仓库整洁度与结构、敏感内容、许可证和适用的验证步骤，不修改文件。

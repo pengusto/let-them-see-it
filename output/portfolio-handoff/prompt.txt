@@ -1,0 +1,8 @@
+Use case: infographic-diagram
+Asset type: landscape explanatory preview for the agent skill Let Them See It, website, README and portfolio.
+Primary request: one polished editorial graphic showing a repository becoming understandable through inspection, a human-approved plan, and verified preparation. Make the approval boundary unmistakable without suggesting automatic publication.
+Scene/backdrop: flat near-black charcoal background, generous negative space, off-white typography, precisely targeted lime/chartreuse accent.
+Composition: wide 16:9, big title at upper left, three large simple document/folder compositions along the lower two thirds connected by thin restrained arrows. Left: a disorderly stack of unlabeled file sheets with a magnifying lens. Center: a neat assessment sheet with three priority rows and a small distinct outlined human approval gate. Right: an orderly open repository folder, clear README sheet and small verification marks. At the far right, a thin closed boundary indicating publication remains a separate decision. Diagrams should be clear at small thumbnail size.
+Text (verbatim), only these labels: "LET THEM SEE IT", "INSPECT", "AGREE", "PREPARE", "PUBLISH WITH PERMISSION".
+Style: sophisticated flat graphic design, crisp geometry, restrained fine paper texture, strong hierarchy, no photoreal scene. Large readable text, not a screenshot. Visual story should work without reading labels.
+Constraints: no robots, chrome objects, flames, pseudo-code walls, fake result metrics, green certification seal, automatic approval claims, watermarks or extra text.
